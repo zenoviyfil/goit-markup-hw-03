@@ -4,6 +4,21 @@ body {
   background-color: #e5e5e5;
 }
 
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --link-color: #2196f3;
   --principal-text-color: #212121;
@@ -12,6 +27,10 @@ body {
   --black-color: #000;
   --filter-btn-color: #f5f4fa;
   --footer-contacts-color: #80808060;
+}
+
+section {
+  padding: 94px;
 }
 
 .container {
@@ -198,6 +217,11 @@ a.tel-link-footer:focus {
 
 .projects-portfolio {
   display: flexbox;
+}
+
+.projects-portfolio-item {
+  box-sizing: inherit;
+  border: 1px solid #eeeeee;
 }
 
 .projects-portfolio-header {
