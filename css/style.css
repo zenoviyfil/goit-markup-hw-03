@@ -34,7 +34,7 @@ section {
 }
 
 .container {
-  widows: 1200px;
+  width: 1200px;
 }
 
 .nav-bar {
@@ -121,7 +121,39 @@ a.tel-link-footer:focus {
   color: var(--link-color);
 }
 
+.nav-bar {
+  display: flex;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  position: absolute;
+  width: 1200px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+
+.header-box {
+  position: absolute;
+  width: 1200px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background: #2f303a;
+}
+
 .main-theme {
+  position: absolute;
+  width: 696px;
+  left: 252px;
+  top: 280px;
+  text-align: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -130,6 +162,11 @@ a.tel-link-footer:focus {
 }
 
 .main-theme-btn {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 500px;
+  top: 430px;
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;
@@ -140,8 +177,16 @@ a.tel-link-footer:focus {
   border-radius: 4px;
 }
 
+.qualities {
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 15px;
+  top: 774px;
+}
+
 .projects-filter {
-  display: flexbox;
+  display: flex;
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
@@ -149,7 +194,26 @@ a.tel-link-footer:focus {
   color: var(--principal-text-color);
 }
 
-.section-header {
+.section-header-1 {
+  position: absolute;
+  width: 376px;
+  height: 42px;
+  left: 412px;
+  top: 969px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--principal-text-color);
+}
+
+.section-header-2 {
+  position: absolute;
+  width: 264px;
+  height: 42px;
+  left: 468px;
+  top: 1543px;
+  text-align: center;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -157,15 +221,44 @@ a.tel-link-footer:focus {
 }
 
 .qualities {
-  display: flexbox;
+  display: flex;
 }
 
 .offers {
-  display: flexbox;
+  display: flex;
+}
+
+.offer-item-1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 15px;
+  top: 1061px;
+}
+
+.offer-item-2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 415px;
+  top: 1061px;
+}
+
+.offer-item-3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 815px;
+  top: 1061px;
 }
 
 .team {
-  display: flexbox;
+  display: flex;
+  position: absolute;
+  width: 1170px;
+  height: 368px;
+  left: 15px;
+  top: 1635px;
 }
 
 .qualities-description-header {
@@ -216,7 +309,7 @@ a.tel-link-footer:focus {
 }
 
 .projects-portfolio {
-  display: flexbox;
+  display: flex;
 }
 
 .projects-portfolio-item {
