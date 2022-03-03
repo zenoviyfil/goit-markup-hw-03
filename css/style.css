@@ -18,6 +18,10 @@ body {
   widows: 1200px;
 }
 
+.nav-bar {
+  display: flexbox;
+}
+
 .logo-link {
   font-family: Raleway;
   font-size: 26px;
