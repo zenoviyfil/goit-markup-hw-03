@@ -43,6 +43,11 @@ section {
   width: 1200px;
 }
 
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+
 .logo-link {
   font-family: Raleway;
   font-size: 26px;
@@ -50,7 +55,7 @@ section {
   line-height: 1.19;
   text-decoration: none;
   color: var(--link-color);
-  margin-top: 24px;
+  margin-right: 93px;
 }
 
 .footer > .logo-link {
@@ -67,11 +72,20 @@ section {
 
 .nav-bar {
   display: flex;
-  margin-top: 32px;
 }
 
 .nav-menu {
   display: flex;
+  margin-right: 331px;
+}
+
+.contacts {
+  display: flex;
+  list-style-type: none;
+}
+
+.contacts > li:nth-child(-n + 1) {
+  margin-right: 50px;
 }
 
 .index-link,
@@ -320,8 +334,4 @@ a.tel-link-footer:focus {
 
 .contacts-div {
   margin-top: 20px;
-}
-
-.wc {
-  background-color: var(--white-color);
 }
