@@ -59,6 +59,21 @@ section {
   color: var(--white-color);
 }
 
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.index-link,
+.portfolio-link,
+.contacts-link {
+  margin: auto 25px;
+}
+
 .index-link,
 .portfolio-link,
 .contacts-link {
