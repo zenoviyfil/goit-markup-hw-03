@@ -41,6 +41,8 @@ section {
 
 .container {
   width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-menu {
@@ -168,7 +170,11 @@ a.tel-link-footer:focus {
   line-height: 1.36;
   color: var(--white-color);
   text-transform: uppercase;
+  width: 600px;
   margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .main-theme-btn {
@@ -237,6 +243,7 @@ a.tel-link-footer:focus {
   font-size: 36px;
   line-height: 1.16;
   color: var(--principal-text-color);
+  text-align: center;
 }
 
 .qualities {
@@ -296,6 +303,7 @@ a.tel-link-footer:focus {
 .team > li {
   width: 270px;
   margin: 0px;
+  background-color: var(--white-color);
 }
 
 .person-name {
@@ -304,6 +312,7 @@ a.tel-link-footer:focus {
   line-height: 1.18;
   color: var(--principal-text-color);
   margin-top: 30px;
+  text-align: center;
 }
 
 .person-profession {
@@ -312,6 +321,8 @@ a.tel-link-footer:focus {
   line-height: 1.18;
   color: var(--secondary-text-color);
   margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .project-filter-btn {
@@ -346,7 +357,8 @@ a.tel-link-footer:focus {
 .offers,
 .team,
 .projects-filter,
-.projects-portfolio {
+.projects-portfolio,
+.contacts-list-footer {
   list-style-type: none;
 }
 
