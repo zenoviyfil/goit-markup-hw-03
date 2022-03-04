@@ -50,6 +50,11 @@ section {
   line-height: 1.19;
   text-decoration: none;
   color: var(--link-color);
+  margin-top: 24px;
+}
+
+.footer > .logo-link {
+  margin-top: 60px;
 }
 
 .color-logo-link-header {
@@ -62,6 +67,7 @@ section {
 
 .nav-bar {
   display: flex;
+  margin-top: 32px;
 }
 
 .nav-menu {
@@ -103,6 +109,7 @@ header {
   line-height: 1.7;
   color: var(--footer-contacts-color);
   text-decoration: none;
+  margin-top: 9px;
 }
 
 .button:hover,
@@ -150,6 +157,7 @@ a.tel-link-footer:focus {
   line-height: 1.36;
   color: var(--white-color);
   text-transform: uppercase;
+  margin-top: 200px;
 }
 
 .main-theme-btn {
@@ -161,6 +169,7 @@ a.tel-link-footer:focus {
   background: var(--link-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin-top: 30px;
 }
 
 .projects-filter {
@@ -185,6 +194,12 @@ a.tel-link-footer:focus {
 
 .qualities {
   display: flex;
+  justify-content: space-between;
+}
+
+.qualities-item {
+  width: 270px;
+  margin: 0px;
 }
 
 .offers {
@@ -214,11 +229,34 @@ a.tel-link-footer:focus {
   color: var(--secondary-text-color);
 }
 
+.offers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.offers-item {
+  width: 370px;
+  margin: 0px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.team > li {
+  width: 270px;
+  margin: 0px;
+}
+
 .person-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   color: var(--principal-text-color);
+  margin-top: 30px;
 }
 
 .person-profession {
@@ -226,6 +264,7 @@ a.tel-link-footer:focus {
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-text-color);
+  margin-top: 10px;
 }
 
 .project-filter-btn {
@@ -275,4 +314,8 @@ a.tel-link-footer:focus {
 .projects-filter,
 .projects-portfolio {
   list-style-type: none;
+}
+
+.contacts-div {
+  margin-top: 20px;
 }
