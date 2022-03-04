@@ -1,3 +1,13 @@
+:root {
+  --link-color: #2196f3;
+  --principal-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-color: #fff;
+  --black-color: #000;
+  --filter-btn-color: #f5f4fa;
+  --footer-contacts-color: #80808060;
+}
+
 body {
   width: 1600px;
   font-family: "Raleway", sans-serif;
@@ -29,16 +39,6 @@ section {
 
 .container {
   width: 1200px;
-}
-
-:root {
-  --link-color: #2196f3;
-  --principal-text-color: #212121;
-  --secondary-text-color: #757575;
-  --white-color: #fff;
-  --black-color: #000;
-  --filter-btn-color: #f5f4fa;
-  --footer-contacts-color: #80808060;
 }
 
 .logo-link {
