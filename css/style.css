@@ -7,6 +7,7 @@
   --filter-btn-color: #f5f4fa;
   --footer-contacts-color: #80808060;
   --bck-grnd-color: #e5e5e5;
+  --theme-color: #2f303a;
 }
 
 body {
@@ -61,7 +62,6 @@ section {
 
 .nav-bar {
   display: flex;
-  justify-content: space-between;
 }
 
 .nav-menu {
@@ -137,6 +137,10 @@ a.tel-link-footer:focus {
   color: var(--link-color);
 }
 
+.header-box {
+  background-color: var(--theme-color);
+}
+
 .main-theme {
   font-weight: 900;
   font-size: 44px;
@@ -169,6 +173,22 @@ a.tel-link-footer:focus {
   font-size: 36px;
   line-height: 1.16;
   color: var(--principal-text-color);
+}
+
+.qualities {
+  display: flex;
+}
+
+.offers {
+  display: flex;
+}
+
+.team {
+  display: flex;
+}
+
+.footer {
+  background-color: var(--theme-color);
 }
 
 .qualities-description-header {
