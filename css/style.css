@@ -191,6 +191,12 @@ a.tel-link-footer:focus {
   line-height: 1.625;
   color: var(--principal-text-color);
   width: 611px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projects-filter-item:nth-child(-n + 4) {
+  margin-right: 8px;
 }
 
 .projects-portfolio {
@@ -204,6 +210,7 @@ a.tel-link-footer:focus {
 
 .projects-portfolio-item {
   margin: 15px;
+  background-color: var(--white-color);
 }
 
 .projects-portfolio-header {
@@ -212,6 +219,7 @@ a.tel-link-footer:focus {
   line-height: 2;
   color: var(--principal-text-color);
   margin-top: 20px;
+  margin-left: 24px;
 }
 
 .projects-portfolio-text {
@@ -220,6 +228,8 @@ a.tel-link-footer:focus {
   line-height: 1.875;
   color: var(--secondary-text-color);
   margin-top: 4px;
+  margin-bottom: 20px;
+  margin-left: 24px;
 }
 
 .section-header {
@@ -311,6 +321,7 @@ a.tel-link-footer:focus {
   color: var(--principal-text-color);
   background: var(--filter-btn-color);
   border-radius: 4px;
+  padding: 6px 22px;
 }
 
 .project-filter-btn:hover,
