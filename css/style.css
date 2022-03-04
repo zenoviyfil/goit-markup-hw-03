@@ -22,6 +22,10 @@ p {
   padding: 0px;
 }
 
+section {
+  padding: 94px;
+}
+
 :root {
   --link-color: #2196f3;
   --principal-text-color: #212121;
