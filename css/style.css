@@ -68,6 +68,9 @@ section {
   display: flex;
 }
 
+header {
+}
+
 .index-link,
 .portfolio-link,
 .contacts-link {
