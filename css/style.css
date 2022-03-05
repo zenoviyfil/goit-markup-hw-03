@@ -39,7 +39,7 @@ section {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -255,7 +255,7 @@ a.tel-link-footer:focus {
 }
 
 .qualities-item {
-  width: calc(100% / 4);
+  width: 270px;
 }
 
 .qualities-item:nth-child(-n + 3) {
@@ -287,6 +287,8 @@ a.tel-link-footer:focus {
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-text-color);
+  letter-spacing: 0.03em;
+  margin-top: 10px;
 }
 
 .offers {
