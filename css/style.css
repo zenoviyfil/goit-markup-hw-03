@@ -251,11 +251,15 @@ a.tel-link-footer:focus {
 
 .qualities {
   display: flex;
-  margin-top: 50px;
+  padding: 94px 0px;
+}
+
+.qualities-item {
+  width: calc(100% / 4);
 }
 
 .qualities-item:nth-child(-n + 3) {
-  margin-right: 25px;
+  margin-right: 30px;
 }
 
 .offers {
