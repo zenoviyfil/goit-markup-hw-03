@@ -271,10 +271,6 @@ a.tel-link-footer:focus {
   margin-right: 30px;
 }
 
-.footer {
-  background-color: var(--theme-color);
-}
-
 .qualities-description-header {
   font-weight: bold;
   font-size: 14px;
@@ -323,6 +319,11 @@ a.tel-link-footer:focus {
   background-color: var(--white-color);
 }
 
+.team > li > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .person-description {
   padding: 30px 60px;
 }
@@ -342,6 +343,10 @@ a.tel-link-footer:focus {
   color: var(--secondary-text-color);
   margin-top: 10px;
   text-align: center;
+}
+
+.container-footer {
+  background-color: var(--theme-color);
 }
 
 .project-filter-btn {
