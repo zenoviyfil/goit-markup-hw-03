@@ -249,6 +249,15 @@ a.tel-link-footer:focus {
   text-align: center;
 }
 
+.container-qualities {
+  padding-bottom: 94px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .qualities {
   display: flex;
   padding: 94px 0px;
@@ -260,14 +269,6 @@ a.tel-link-footer:focus {
 
 .qualities-item:nth-child(-n + 3) {
   margin-right: 30px;
-}
-
-.offers {
-  display: flex;
-}
-
-.team {
-  display: flex;
 }
 
 .footer {
@@ -302,16 +303,28 @@ a.tel-link-footer:focus {
   margin: 0px;
 }
 
+.container-team {
+  padding: 94px;
+  background-color: var(--bck-grnd-color);
+}
+
 .team {
   display: flex;
-  justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
 }
 
 .team > li {
   width: 270px;
-  margin: 0px;
+  margin: 15px;
   background-color: var(--white-color);
+}
+
+.person-description {
+  padding: 30px 60px;
 }
 
 .person-name {
@@ -319,7 +332,6 @@ a.tel-link-footer:focus {
   font-size: 16px;
   line-height: 1.18;
   color: var(--principal-text-color);
-  margin-top: 30px;
   text-align: center;
 }
 
@@ -329,7 +341,6 @@ a.tel-link-footer:focus {
   line-height: 1.18;
   color: var(--secondary-text-color);
   margin-top: 10px;
-  margin-bottom: 30px;
   text-align: center;
 }
 
