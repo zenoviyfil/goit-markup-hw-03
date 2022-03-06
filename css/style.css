@@ -79,6 +79,10 @@ section {
   padding: 94px 0;
 }
 
+section:nth-child(3n) {
+  padding: 0;
+}
+
 .container {
   width: 1200px;
   display: flex;
@@ -86,18 +90,20 @@ section {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  align-items: center;
 }
 
 /* --- ---------- ---*/
 
+/* --- LOGO asset ---*/
 .logo-link {
   font-family: Raleway;
   font-size: 26px;
   font-weight: bold;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--link-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-right: 93px;
   padding: 24px 0px;
 }
@@ -110,27 +116,50 @@ section {
   color: var(--white-color);
 }
 
-.nav-menu > li {
-  padding: 32px 0px;
+/* --- -------- --- */
+
+/* --- NAV styles --- */
+
+.nav-menu {
+  margin-right: 335px;
+}
+.nav-list {
+  display: flex;
 }
 
-.contacts > li {
+.nav-list > li {
   padding: 32px 0px;
+  margin-right: 50px;
+}
+
+.nav-list > li:nth-child(3n) {
+  margin-right: 0;
 }
 
 .contacts {
   display: flex;
   list-style-type: none;
-  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts > li {
+  padding: 32px 0px;
+  margin-right: 50px;
+}
+
+.contacts > li:nth-child(2n) {
+  margin-right: 0px;
 }
 
 .index-link,
 .portfolio-link,
 .contacts-link {
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--principal-text-color);
   text-decoration: none;
 }
@@ -140,21 +169,17 @@ section {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   text-decoration: none;
 }
 
-.mail-link-footer,
-.tel-link-footer {
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--footer-contacts-color);
-  text-decoration: none;
-  margin-top: 9px;
-}
+/* --- ---------- --- */
 
-.container-hero {
-  padding: 200px 0px;
+/* --- hero section --- */
+
+.hero {
+  padding: 200px 0;
   background-color: var(--theme-color);
 }
 
@@ -184,6 +209,8 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* --- ------------ --- */
 
 .section-header {
   font-weight: bold;
@@ -398,7 +425,16 @@ section {
   color: var(--white-color);
 }
 
-.nav-menu,
+.mail-link-footer,
+.tel-link-footer {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--footer-contacts-color);
+  text-decoration: none;
+  margin-top: 9px;
+}
+
+.nav-list,
 .qualities,
 .offers,
 .team,
