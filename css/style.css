@@ -81,6 +81,20 @@ a.tel-link-footer:focus {
   color: var(--link-color);
 }
 
+.project-filter-btn:hover,
+.project-filter-btn:focus {
+  color: var(--white-color);
+  background: var(--link-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.projects-portfolio-item:hover,
+.projects-portfolio-item:focus {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 /* --- ----------- --- */
 
 /* --- base config ---*/
@@ -100,6 +114,10 @@ section:nth-child(3n) {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
 }
 
 /* --- ---------- ---*/
@@ -335,35 +353,49 @@ section:nth-child(3n) {
 
 /* --- ------------ ---*/
 
-.container-main {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* --- --- SECOND PAGE --- --- */
+
+/* --- portfolio menu --- */
 
 .projects-filter {
-  width: 1200px;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .projects-filter-item:nth-child(-n + 4) {
   margin-right: 8px;
 }
 
+.project-filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--principal-text-color);
+  background: var(--filter-btn-color);
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+
+/* --- -------------- --- */
+
+/* --- portfolio item --- */
+
 .projects-portfolio {
-  width: 1200px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .projects-portfolio-item {
-  width: 370px;
   background-color: var(--white-color);
-  margin: 15px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.projects-portfolio-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .projects-portfolio-item > img {
@@ -374,6 +406,7 @@ section:nth-child(3n) {
 
 .portfolio-item-description {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 
 .projects-portfolio-header {
@@ -391,24 +424,7 @@ section:nth-child(3n) {
   margin-top: 4px;
 }
 
-.project-filter-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  color: var(--principal-text-color);
-  background: var(--filter-btn-color);
-  border-radius: 4px;
-  padding: 6px 22px;
-}
-
-.project-filter-btn:hover,
-.project-filter-btn:focus {
-  color: var(--white-color);
-  background: var(--link-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
+/* --- -------------- --- */
 
 /* --- footer --- */
 
