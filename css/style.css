@@ -74,22 +74,32 @@ section {
 .nav-menu {
   display: flex;
   margin-right: 331px;
-  padding: 32px 0px;
 }
 
 .nav-menu > li:nth-child(-n + 2) {
   margin-right: 25px;
 }
 
+.nav-menu > li {
+  padding: 32px 0px;
+}
+
+.contacts > li {
+  padding: 32px 0px;
+}
+
 .contacts {
   display: flex;
   list-style-type: none;
-  padding: 32px 0px;
   margin-left: auto;
 }
 
 .contacts > li:nth-child(-n + 1) {
   margin-right: 50px;
+}
+
+.garant {
+  color: accent;
 }
 
 .index-link,
