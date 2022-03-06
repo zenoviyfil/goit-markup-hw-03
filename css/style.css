@@ -34,6 +34,16 @@ p {
   padding: 0px;
 }
 
+.nav-list,
+.qualities,
+.offers,
+.team,
+.projects-filter,
+.projects-portfolio,
+.contacts-list-footer {
+  list-style-type: none;
+}
+
 /* --- hover focus --- */
 
 .button:hover,
@@ -224,27 +234,7 @@ section:nth-child(3n) {
 
 /* --- -------------- ---*/
 
-/* --- offer section ---*/
-
-.offers {
-  width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.offer-item {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin-right: 30px;
-}
-
-.offer-item:nth-child(3n) {
-  margin-right: 0;
-}
-
-/* --- ------------- ---*/
+/* --- qualities sec ---*/
 
 .qualities {
   display: flex;
@@ -274,6 +264,32 @@ section:nth-child(3n) {
   letter-spacing: 0.03em;
   margin-top: 10px;
 }
+
+/* --- ------------- ---*/
+
+/* --- offer section ---*/
+
+.offers {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.offer-item {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-right: 30px;
+}
+
+.offer-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+/* --- ------------- ---*/
+
+/* --- team section ---*/
 
 .team {
   display: flex;
@@ -317,29 +333,7 @@ section:nth-child(3n) {
   text-align: center;
 }
 
-.container-footer {
-  width: 1200px;
-  padding: 60px 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.logo-link-footer {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 1.19;
-  text-decoration: none;
-  color: var(--link-color);
-}
-
-.contacts-div {
-  margin-top: 20px;
-}
-
-.contacts-item-footer {
-  margin-top: 9px;
-}
+/* --- ------------ ---*/
 
 .container-main {
   width: 1200px;
@@ -416,6 +410,8 @@ section:nth-child(3n) {
   border-radius: 4px;
 }
 
+/* --- footer --- */
+
 footer {
   padding: 60px 0;
   background-color: var(--theme-color);
@@ -427,6 +423,19 @@ footer {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.logo-link-footer {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+.contacts-item-footer {
+  margin-top: 9px;
 }
 
 .address {
@@ -447,12 +456,4 @@ footer {
   margin-top: 9px;
 }
 
-.nav-list,
-.qualities,
-.offers,
-.team,
-.projects-filter,
-.projects-portfolio,
-.contacts-list-footer {
-  list-style-type: none;
-}
+/* --- ------ --- */
