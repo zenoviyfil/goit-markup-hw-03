@@ -351,7 +351,7 @@ section:nth-child(3n) {
   height: auto;
 }
 .person-description {
-  padding: 30px 60px;
+  padding: 30px 32px;
 }
 
 .person-name {
