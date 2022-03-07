@@ -8,7 +8,6 @@
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --bck-grnd-color: #e5e5e5;
   --theme-color: #2f303a;
-  --btn-color: #f5f4fa;
 }
 
 body {
@@ -113,10 +112,6 @@ section {
   padding: 94px 0;
 }
 
-section:nth-child(3n) {
-  padding: 0;
-}
-
 .container {
   width: 1200px;
   display: flex;
@@ -124,6 +119,7 @@ section:nth-child(3n) {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  align-items: center;
 }
 
 .header {
@@ -159,6 +155,7 @@ section:nth-child(3n) {
 /* --- NAV styles --- */
 
 .nav-menu {
+  align-items: center;
   margin-right: 331px;
 }
 .nav-list {
@@ -166,7 +163,6 @@ section:nth-child(3n) {
 }
 
 .nav-list > li {
-  padding: 32px 0px;
   margin-right: 50px;
 }
 
@@ -181,7 +177,6 @@ section:nth-child(3n) {
 }
 
 .contacts > li {
-  padding: 32px 0px;
   margin-right: 50px;
 }
 
@@ -200,6 +195,7 @@ section:nth-child(3n) {
   letter-spacing: 0.02em;
   color: var(--principal-text-color);
   text-decoration: none;
+  padding: 32px 0px;
 }
 
 .garant {
@@ -214,6 +210,7 @@ section:nth-child(3n) {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   text-decoration: none;
+  padding: 32px 0px;
 }
 
 /* --- ---------- --- */
@@ -303,17 +300,25 @@ section:nth-child(3n) {
 
 /* --- offer section ---*/
 
+.offer-section {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
+.container-offer {
+  display: block;
+}
+
 .offers {
-  width: 1200px;
   display: flex;
-  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
-  margin-bottom: 94px;
 }
 
 .offer-item {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   margin-right: 30px;
 }
@@ -326,9 +331,16 @@ section:nth-child(3n) {
 
 /* --- team section ---*/
 
+.team-section {
+  background-color: var(--filter-btn-color);
+}
+
+.container-team {
+  display: block;
+}
+
 .team {
   display: flex;
-  width: 1200px;
   margin-top: 50px;
 }
 
@@ -398,7 +410,7 @@ section:nth-child(3n) {
   letter-spacing: 0.03em;
   border-radius: 4px;
   padding: 6px 22px;
-  background: var(--btn-color);
+  background: var(--filter-btn-color);
   border: none;
 }
 
@@ -489,6 +501,7 @@ footer {
 .mail-link-footer,
 .tel-link-footer {
   font-size: 14px;
+  font-style: normal;
   line-height: 1.7;
   color: var(--footer-contacts-color);
   text-decoration: none;
