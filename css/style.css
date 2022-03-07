@@ -387,6 +387,10 @@ section {
 
 /* --- --- SECOND PAGE --- --- */
 
+.project-container {
+  display: block;
+}
+
 /* --- portfolio menu --- */
 
 .projects-filter {
